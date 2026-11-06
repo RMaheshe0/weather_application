@@ -1,0 +1,42 @@
+name: skypulse_weather
+description: "A complete, modern, and responsive Weather Forecast Android Application built with Flutter & Material 3."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # State Management
+  provider: ^6.1.2
+  
+  # Networking & APIs
+  http: ^1.2.1
+  
+  # Local Storage for Saved Cities and Settings
+  shared_preferences: ^2.2.3
+  
+  # Charts for 24-Hour & 7-Day Forecast Visualization
+  fl_chart: ^0.68.0
+  
+  # Location & Geolocation Services
+  geolocator: ^11.0.0
+  geocoding: ^3.0.0
+  
+  # Date formatting & internationalization
+  intl: ^0.19.0
+  
+  # UI & Material Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.2
+
+flutter:
+  uses-material-design: true

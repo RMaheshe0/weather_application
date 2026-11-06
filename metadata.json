@@ -1,0 +1,6 @@
+{
+  "name": "SkyPulse - Flutter Weather Forecast App",
+  "description": "Modern Flutter Weather Forecast application for Android with real-time weather, 24h hourly and 7-day forecasts, Material 3 design, and complete exportable Flutter project codebase.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
